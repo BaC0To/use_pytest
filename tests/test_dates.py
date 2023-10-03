@@ -1,6 +1,7 @@
-import pytest
 from datetime import datetime, timedelta
 from date_diff import calc_date_diff
+import pytest
+
 
 
 data = [(datetime(2023, 10, 3), datetime(2023, 10, 2), timedelta(1) ),
